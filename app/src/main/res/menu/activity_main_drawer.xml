@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="Info" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_menu_notice"
+            android:title="Notice" />
+        <item
+            android:id="@+id/nav_assigment"
+            android:icon="@drawable/ic_menu_assignment"
+            android:title="Assignment" />
+
+
+
+    </group>
+
+    <item android:title="Student">
+        <menu>
+            <item
+                android:id="@+id/nav_note"
+                android:icon="@drawable/ic_menu_note"
+                android:title="Reminder" />
+
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_menu_chat"
+                android:title="Group Chat" />
+
+
+            <item
+                android:id="@+id/nav_youtube_video"
+                android:icon="@drawable/ic_video_youtube"
+                android:title="NEPTEL Videos" />
+
+        </menu>
+    </item>
+
+</menu>
